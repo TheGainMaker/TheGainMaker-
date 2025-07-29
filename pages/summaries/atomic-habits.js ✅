@@ -1,1 +1,51 @@
+export default function AtomicHabits() {
+  return (
+    <div className="max-w-2xl mx-auto px-4 py-8">
+      <h1 className="text-4xl font-bold mb-6">Atomic Habits Summary</h1>
 
+      <p className="mb-4">
+        <strong>Atomic Habits</strong> by James Clear is a guide to building
+        good habits, breaking bad ones, and mastering the tiny behaviors that
+        lead to remarkable results. The core message is: small, consistent
+        changes compound over time to create significant personal transformation.
+      </p>
+
+      <h2 className="text-2xl font-semibold mt-6 mb-2">🔑 Key Ideas</h2>
+
+      <ul className="list-disc list-inside mb-4 space-y-2">
+        <li>
+          <strong>1% better every day</strong>: Tiny improvements add up over time.
+        </li>
+        <li>
+          <strong>Habits are the compound interest of self-improvement</strong>.
+        </li>
+        <li>
+          <strong>Focus on identity, not outcomes</strong>: Build habits by becoming the kind of person who does those things (e.g., "I'm a runner" vs. "I want to run").
+        </li>
+        <li>
+          <strong>The 4 laws of behavior change:</strong> Make it obvious, make it attractive, make it easy, and make it satisfying.
+        </li>
+      </ul>
+
+      <h2 className="text-2xl font-semibold mt-6 mb-2">🔁 The Habit Loop</h2>
+      <p className="mb-4">
+        Every habit goes through a loop: Cue → Craving → Response → Reward.
+        By manipulating these parts, you can build better habits or stop bad ones.
+      </p>
+
+      <h2 className="text-2xl font-semibold mt-6 mb-2">📌 Practical Tips</h2>
+      <ul className="list-disc list-inside mb-4 space-y-2">
+        <li><strong>Habit stacking:</strong> Pair a new habit with an existing one.</li>
+        <li><strong>Environment design:</strong> Shape your surroundings to make good habits easier.</li>
+        <li><strong>Make bad habits hard:</strong> Add friction to undesired behaviors.</li>
+        <li><strong>Track your progress:</strong> Use visual cues like habit trackers.</li>
+      </ul>
+
+      <h2 className="text-2xl font-semibold mt-6 mb-2">🏁 Final Thoughts</h2>
+      <p className="mb-4">
+        Big changes don’t require massive action. They require small, consistent improvements made daily. 
+        *Atomic Habits* is a blueprint for anyone who wants to build better systems for living a more intentional, successful life.
+      </p>
+    </div>
+  );
+}
