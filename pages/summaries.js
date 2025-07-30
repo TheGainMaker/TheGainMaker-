@@ -57,5 +57,5 @@ export default function Summaries() {
         © {new Date().getFullYear()} TheGainMaker. All rights reserved.
       </footer>
     </div>
+  );
 }
-
