@@ -7,9 +7,7 @@ export default function SummariesIndex() {
 
       <ul className="list-disc list-inside space-y-4">
         <li>
-          <Link href="/summaries/atomic-habits" className="text-blue-600 hover:underline">
-            Atomic Habits by James Clear
-          </Link>
+          <Link href="/summaries/atomic-habits">Atomic Habits</Link>
         </li>
         {/* You can add more summaries here later */}
       </ul>
