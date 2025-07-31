@@ -1,34 +1,8 @@
-export default function AtomicHabits() {
+export default function AtomicHabitsSummary() {
   return (
     <div className="max-w-2xl mx-auto px-4 py-8">
-      <h1 className="text-4xl font-bold mb-6">Atomic Habits by James Clear</h1>
-
-      <p className="mb-4">
-        <strong>Overview:</strong> <em>Atomic Habits</em> is a practical guide to habit formation...
-      </p>
-
-      <h2 className="text-2xl font-semibold mt-6 mb-2">The 4 Laws of Behavior Change:</h2>
-      <ol className="list-decimal list-inside mb-4">
-        <li><strong>Make It Obvious:</strong> Design your environment... </li>
-        <li><strong>Make It Attractive:</strong> Bundle habits... </li>
-        <li><strong>Make It Easy:</strong> Start with tiny steps... </li>
-        <li><strong>Make It Satisfying:</strong> Use rewards and track progress... </li>
-      </ol>
-
-      <h2 className="text-2xl font-semibold mt-6 mb-2">Key Concepts:</h2>
-      <ul className="list-disc list-inside mb-4">
-        <li><strong>Identity-Based Habits</strong></li>
-        <li><strong>The Plateau of Latent Potential</strong></li>
-        <li><strong>The Aggregation of Marginal Gains</strong></li>
-      </ul>
-
-      <h2 className="text-2xl font-semibold mt-6 mb-2">Memorable Quotes:</h2>
-      <blockquote className="border-l-4 pl-4 italic text-gray-700 mb-2">
-        “You do not rise to the level of your goals. You fall to the level of your systems.”
-      </blockquote>
-      <blockquote className="border-l-4 pl-4 italic text-gray-700 mb-4">
-        “Every action you take is a vote for the type of person you wish to become.”
-      </blockquote>
+      <h1 className="text-4xl font-bold mb-4">Atomic Habits</h1>
+      <p>This is the detailed summary of Atomic Habits by James Clear.</p>
     </div>
   );
 }
