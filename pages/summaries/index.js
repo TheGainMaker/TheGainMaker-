@@ -6,7 +6,7 @@ export default function SummariesIndex() {
       <h1 className="text-4xl font-bold mb-6">Book Summaries</h1>
       <ul className="list-disc list-inside space-y-4">
         <li>
-          <Link href="/summaries/atomic-habits.js" className="text-blue-600 hover:underline">
+          <Link href="/summaries/atomic-habits" className="text-blue-600 hover:underline">
             Atomic Habits by James Clear
           </Link>
         </li>
