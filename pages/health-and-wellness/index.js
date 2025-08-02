@@ -10,7 +10,6 @@ export default function HealthWellnessIndex() {
             The Benefits of Resistance Training
           </Link>
         </li>
-        {/* Add more health & wellness articles here */}
       </ul>
     </div>
   );
