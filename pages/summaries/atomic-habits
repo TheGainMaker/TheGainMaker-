@@ -1,0 +1,8 @@
+export default function AtomicHabits() {
+  return (
+    <div className="max-w-2xl mx-auto px-4 py-8">
+      <h1 className="text-4xl font-bold mb-4">Atomic Habits</h1>
+      <p>This is the detailed summary page for Atomic Habits.</p>
+    </div>
+  );
+}
