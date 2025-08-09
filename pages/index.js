@@ -12,7 +12,7 @@ export default function Home() {
             <a href="/summaries" className="text-gray-700 hover:text-indigo-600 font-medium">
               Summaries
             </a>
-            <a href="/heath-and-wellness" className="text-gray-700 hover:text-indigo-600 font-medium">
+            <a href="/wellness" className="text-gray-700 hover:text-indigo-600 font-medium">
               Health & Wellness
             </a>
             <a href="/investing" className="text-gray-700 hover:text-indigo-600 font-medium">
