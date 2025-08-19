@@ -1,5 +1,3 @@
-import Link from "next/link";
-
 export default function SummariesIndex() {
   return (
     <div className="max-w-2xl mx-auto px-4 py-8">
