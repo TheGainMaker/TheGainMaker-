@@ -1,16 +1,17 @@
-import Link from "next/link";
-
-export default function SummariesIndex() {
+export default function Summaries() {
   return (
-    <div className="max-w-2xl mx-auto px-4 py-8">
-      <h1 className="text-4xl font-bold mb-6">Book Summaries</h1>
-      <ul className="list-disc list-inside space-y-4">
-        <li>
-          <Link href="/summaries/atomic-habits" className="text-blue-600 hover:underline">
-            Atomic Habits by James Clear
-          </Link>
-        </li>
-      </ul>
+    <div className="min-h-screen bg-gray-50 px-6 py-12">
+      <div className="max-w-3xl mx-auto">
+        <h1 className="text-3xl font-bold text-orange-700 mb-6">Book Summaries</h1>
+        <p className="text-lg text-gray-700 mb-4">
+          Condensed lessons from impactful books on habits, health, and personal growth.
+        </p>
+        <ul className="list-disc list-inside text-gray-600 space-y-2">
+          <li><strong>Atomic Habits</strong> – How small changes compound into massive results</li>
+          <li><strong>The Daily Stoic</strong> – Timeless wisdom for modern resilience</li>
+          <li><strong>Outlive</strong> – Peter Attia’s strategies for healthspan and longevity</li>
+        </ul>
+      </div>
     </div>
   );
 }
