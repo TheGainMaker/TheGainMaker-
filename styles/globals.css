@@ -1,9 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
 /* Subtle light pattern background */
 body {
-  background-color: #f9fafb; /* Tailwind's gray-50 */
+  @apply bg-gray-50; /* Tailwind light gray base */
   background-image: radial-gradient(circle at 1px 1px, #e5e7eb 1px, transparent 0);
   background-size: 20px 20px;
 }
