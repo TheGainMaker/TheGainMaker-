@@ -1,7 +1,3 @@
-/ pages/investing/index.js
-import NavBar from "../../components/NavBar";
-
-
 export default function Summaries() {
   return (
     <div className="min-h-screen bg-gray-50 px-6 py-12">
