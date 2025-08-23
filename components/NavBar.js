@@ -11,7 +11,7 @@ export default function NavBar() {
       <a href="/" style={{ marginRight: "1rem" }}>Home</a>
       <a href="/summaries/atomic-habits" style={{ marginRight: "1rem" }}>Book Summaries</a>
       <a href="/health-and-wellness/resistance-training" style={{ marginRight: "1rem" }}>Health & Wellness</a>
-      <a href="/investment-strategy">Investment Strategy</a>
+      <a href="/investment-strategy">investing</a>
     </nav>
   );
 }
