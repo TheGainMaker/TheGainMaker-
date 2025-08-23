@@ -1,8 +1,11 @@
+import NavBar from "../../components/NavBar";
+
 export default function ResistanceTraining() {
   return (
     <div style={{ padding: "2rem", fontFamily: "sans-serif" }}>
+      <NavBar />
+
       <h1>Benefits of Resistance Training</h1>
-      
       <p>
         <strong>Resistance training</strong> is any exercise where your muscles 
         work against an external force (like weights, bands, or bodyweight).
@@ -10,15 +13,9 @@ export default function ResistanceTraining() {
 
       <h2>Key Concepts</h2>
       <ul>
-        <li>
-          <strong>Hypertrophy</strong> – growth in muscle size.
-        </li>
-        <li>
-          <strong>Strength Training</strong> – increasing the amount of weight you can lift.
-        </li>
-        <li>
-          <strong>Powerlifting</strong> – sport focused on max strength in squat, bench, and deadlift.
-        </li>
+        <li><strong>Hypertrophy</strong> – growth in muscle size.</li>
+        <li><strong>Strength Training</strong> – increasing the amount of weight you can lift.</li>
+        <li><strong>Powerlifting</strong> – sport focused on max strength in squat, bench, and deadlift.</li>
       </ul>
 
       <h2>Benefits</h2>
