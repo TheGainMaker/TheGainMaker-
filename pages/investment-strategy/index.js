@@ -1,6 +1,10 @@
+import NavBar from "../../components/NavBar";
+
 export default function InvestmentStrategy() {
   return (
     <div style={{ padding: "2rem", fontFamily: "sans-serif" }}>
+      <NavBar />
+
       <h1>Investment Strategy</h1>
       <p>
         Smart investing balances risk, reward, and time horizon. 
