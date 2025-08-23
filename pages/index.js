@@ -7,17 +7,17 @@ export default function Home() {
         Welcome to The Gain Maker
       </h1>
       <p className="text-lg text-gray-600 mb-8">
-        Explore articles on health, wellness, fitness, and investing.
+        Explore articles on health, wellness, investing, and book summaries.
       </p>
       <nav className="flex space-x-6">
         <Link href="/health-and-wellness" className="text-blue-600 hover:underline">
           Health & Wellness
         </Link>
-        <Link href="/fitness" className="text-blue-600 hover:underline">
-          Fitness
-        </Link>
         <Link href="/investing" className="text-blue-600 hover:underline">
           Investing
+        </Link>
+        <Link href="/summaries" className="text-blue-600 hover:underline">
+          Summaries
         </Link>
       </nav>
     </div>
