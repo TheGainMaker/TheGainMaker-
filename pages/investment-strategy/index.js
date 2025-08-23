@@ -1,7 +1,7 @@
 // pages/investing/index.js
 import NavBar from "../../components/NavBar";
 
-export default function Investing() {
+export default function InvestmentStrategy() {
   return (
     <div className="min-h-screen bg-gray-50 px-6 py-12">
       <NavBar />
