@@ -1,22 +1,18 @@
-import NavBar from "../../components/NavBar";
-
-export default function InvestmentStrategy() {
+export default function Investing() {
   return (
-    <div style={{ padding: "2rem", fontFamily: "sans-serif" }}>
-      <NavBar />
-
-      <h1>Investment Strategy</h1>
-      <p>
-        Smart investing balances risk, reward, and time horizon. 
-        This section covers principles for building wealth sustainably.
-      </p>
-
-      <h2>Core Principles</h2>
-      <ul>
-        <li>Diversification reduces risk.</li>
-        <li>Compounding requires patience and consistency.</li>
-        <li>Asset allocation should reflect your goals and risk tolerance.</li>
-      </ul>
+    <div className="min-h-screen bg-gray-50 px-6 py-12">
+      <div className="max-w-3xl mx-auto">
+        <h1 className="text-3xl font-bold text-purple-700 mb-6">Investing</h1>
+        <p className="text-lg text-gray-700 mb-4">
+          Explore strategies to grow wealth, manage risk, and understand how
+          markets work.
+        </p>
+        <ul className="list-disc list-inside text-gray-600 space-y-2">
+          <li>Stock valuation and interest rates</li>
+          <li>Crypto risk management strategies</li>
+          <li>Equity premium and portfolio theory</li>
+        </ul>
+      </div>
     </div>
   );
 }
