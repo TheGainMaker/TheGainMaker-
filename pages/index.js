@@ -1,15 +1,3 @@
-export default function Home() {
-  return (
-    <div>
-      <NavBar />
-      <main className="p-6">
-        <h1 className="text-4xl font-bold mb-6">Welcome to TheGainMaker</h1>
-        <p className="text-lg">Your source for summaries, health tips, and investing strategies.</p>
-      </main>
-    </div>
-  );
-}
-
 import Link from "next/link";
 export default function Home() {
   return (
