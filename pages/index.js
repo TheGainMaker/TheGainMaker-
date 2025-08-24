@@ -2,24 +2,36 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <div className="min-h-screen flex flex-col items-center justify-center bg-gray-50 px-6">
-      <h1 className="text-4xl font-bold text-blue-700 mb-4">
-        Welcome to The GainMaker
-      </h1>
-      <p className="text-lg text-gray-600 mb-8">
-        Explore articles on health, wellness, investing, and book summaries.
-      </p>
-      <nav className="flex space-x-6">
-        <Link href="/health-and-wellness" className="text-blue-600 hover:underline">
-          Health & Wellness
-        </Link>
-        <Link href="/investing" className="text-blue-600 hover:underline">
-          Investing
-        </Link>
-        <Link href="/summaries" className="text-blue-600 hover:underline">
-          Summaries
-        </Link>
-      </nav>
+    <div className="bg-transparent">
+      <section className="text-center py-16">
+        <h1 className="text-4xl font-extrabold text-gray-900">
+          Unlock Your Potential with <span className="text-indigo-600">TheGainMaker</span>
+        </h1>
+        <p className="text-gray-600 mt-4 max-w-2xl mx-auto">
+          Insights to help you grow stronger, smarter, and wealthier — all in one place.
+        </p>
+
+        <div className="mt-8 flex flex-col sm:flex-row items-center justify-center gap-4">
+          <Link
+            href="/summaries"
+            className="px-6 py-2 rounded-xl bg-indigo-600 text-white hover:bg-indigo-700"
+          >
+            Book Summaries
+          </Link>
+          <Link
+            href="/health-and-wellness"
+            className="px-6 py-2 rounded-xl bg-green-600 text-white hover:bg-green-700"
+          >
+            Health &amp; Wellness
+          </Link>
+          <Link
+            href="/investing"
+            className="px-6 py-2 rounded-xl bg-yellow-600 text-white hover:bg-yellow-700"
+          >
+            Investing
+          </Link>
+        </div>
+      </section>
     </div>
   );
 }
