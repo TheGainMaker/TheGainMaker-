@@ -9,6 +9,3 @@ export default function App({ Component, pageProps }) {
     </Layout>
   );
 }
-body {
-  @apply bg-gradient-to-br from-gray-50 to-gray-200 min-h-screen;
-}
