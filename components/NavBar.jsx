@@ -1,28 +1,29 @@
-"use client";
-
+// components/NavBar.jsx
 import Link from "next/link";
 
 export default function NavBar() {
   return (
-    <nav className="sticky top-0 z-50 bg-white/90 backdrop-blur shadow-sm">
-      <div className="max-w-5xl mx-auto px-4">
-        <div className="flex h-14 items-center justify-between">
-          {/* Brand */}
-          <Link href="/" className="text-2xl font-extrabold text-indigo-600">
-            TheGainMaker
-          </Link>
+    <nav className="sticky top-0 z-50 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 shadow-md">
+      <div className="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
+        {/* Logo / Site Name */}
+        <Link href="/" className="text-white text-xl font-bold tracking-wide">
+          TheGainMaker
+        </Link>
 
-          {/* Links */}
-          <div className="flex items-center space-x-6 md:space-x-10 text-gray-700 font-medium">
-            <Link className="px-2 py-1 hover:text-indigo-600" href="/">Home</Link>
-            <Link className="px-2 py-1 hover:text-indigo-600" href="/summaries">Summaries</Link>
-            <Link className="px-2 py-1 hover:text-indigo-600" href="/health-and-wellness">
-              Health &amp; Wellness
-            </Link>
-            <Link className="px-2 py-1 hover:text-indigo-600" href="/investing">
-              Investing
-            </Link>
-          </div>
+        {/* Links Wrapper */}
+        <div className="navbar-links flex items-center space-x-6 md:space-x-10 text-white font-medium">
+          <Link href="/" className="hover:text-gray-200 transition">
+            Home
+          </Link>
+          <Link href="/summaries" className="hover:text-gray-200 transition">
+            Summaries
+          </Link>
+          <Link href="/health-and-wellness" className="hover:text-gray-200 transition">
+            Health &amp; Wellness
+          </Link>
+          <Link href="/investing" className="hover:text-gray-200 transition">
+            Investing
+          </Link>
         </div>
       </div>
     </nav>
