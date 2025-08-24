@@ -21,3 +21,8 @@ body {
   outline: 2px solid #6366f1;
   outline-offset: 2px;
 }
+/* Fallback spacing if needed */
+.navbar-links > * + * { margin-left: 1.25rem; } /* ~space-x-5 */
+@media (min-width: 768px) {
+  .navbar-links > * + * { margin-left: 2.5rem; } /* ~space-x-10 */
+}
