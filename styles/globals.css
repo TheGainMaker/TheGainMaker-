@@ -2,9 +2,22 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Subtle light pattern background */
+/* ---- Site-wide background pattern ---- */
+html, body {
+  height: 100%;
+}
+
 body {
-  @apply bg-gray-50; /* Tailwind light gray base */
+  /* Soft light base (Tailwind's gray-50) */
+  background-color: #f9fafb;
+
+  /* Subtle dotted grid pattern */
   background-image: radial-gradient(circle at 1px 1px, #e5e7eb 1px, transparent 0);
-  background-size: 20px 20px;
+  background-size: 18px 18px;
+}
+
+/* Optional: nicer focus rings for accessibility */
+:focus-visible {
+  outline: 2px solid #6366f1;
+  outline-offset: 2px;
 }
